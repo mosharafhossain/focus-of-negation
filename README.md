@@ -36,7 +36,7 @@ python -m spacy download en_core_web_sm
 	  - -c, --config-path: path to the configuration file; (required). Contains details parameter settings.
 
 ## Evaluation
-- Example command to get evaluation scores for PB-FOC test corpus.
+- Example command to get evaluation scores for PB-FOC test corpus. Details description can be found in *SEM 2012 Shared Task portal (https://www.clips.uantwerpen.be/sem2012-st-neg/). 
 ```bash
  python ./data/pb-foc/src/pb-foc_evaluation.py ./data/pb-foc-prediction/prediction_on_test.txt ./data/pb-foc/corpus/SEM-2012-SharedTask-PB-FOC-te.merged 
 ```
