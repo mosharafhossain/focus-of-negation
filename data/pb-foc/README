@@ -1,0 +1,7 @@
+We train and evaluate our model (focus detector) with the PB-FOC corpus which can be downloaded from *SEM 2012 Shared Task website. 
+we also build a scope detector using CD-SCO corpus that is leveraged in focus detection.
+We refer the readers to the *SEM 2012 Shared Task portal to know details about the corpora and evaluation procedure. 
+Link: https://www.clips.uantwerpen.be/sem2012-st-neg/
+For convenience, we merge training and dev files to make a single file(e.g. SEM-2012-SharedTask-PB-FOC-tr_dev.merged).
+The details on training, model selection, and evaluation results can be found in the paper "Predicting the Focus of Negation: Model and Error Analysis".
+	- 
